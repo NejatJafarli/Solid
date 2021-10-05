@@ -26,8 +26,6 @@ namespace Dependency_Inversion
         }
     }
 
-
-
     class FormatConverter
     {
         public IDataFormatter Format { get; set; }

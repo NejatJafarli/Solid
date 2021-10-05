@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace InterfaceSegregation
+namespace Interface_Segregation
 {
     interface ICamera
     {
@@ -16,14 +20,14 @@ namespace InterfaceSegregation
         {
             Console.WriteLine("Samsung Finger Print Worked");
         }
-        public  void Camera()
+        public void Camera()
         {
             Console.WriteLine("Samsung Camera");
         }
     }
     class Nokia : ICamera
     {
-        public  void Camera()
+        public void Camera()
         {
             Console.WriteLine("Nokia Camera");
         }
