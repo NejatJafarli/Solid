@@ -1,9 +1,7 @@
 ﻿using System;
 
-namespace LiskovSubstitution
+namespace InterfaceSegregation
 {
-
-
     interface ICamera
     {
         void Camera();
@@ -34,7 +32,7 @@ namespace LiskovSubstitution
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //interface Seggration 
         }
     }
 }
